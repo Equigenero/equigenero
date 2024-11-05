@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulacion</title>
+</head>
+<body>
+    
+    <img src="./LOGO (2).png" width="350" height="350">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <div class="linea4">
+    </div>
+
+<Body Bgcolor="eac0fc">
+
+    <body>
+        <div id="header">
+            <ul class="nav">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="">Quienes somos</a>
+                    <ul>
+                        <li><a href="./plan.html">Plan estrategico</a></li>
+                        <li><a href="">Proyecto</a>
+                            <ul>
+                                <li><a href="./formulacion">formulacion</a></li>
+                                <li><a href="./Marco legal.pdf">Marco Legal</a></li>
+                                <li><a href="./Marco teórico.pdf">Marco Teorico</a></li>
+                                <li><a href="./Cronograma.pdf">Cronograma</a>
+                                    <ul>
+
+                                    </ul>
+
+                                </li>
+                            </ul>
+
+
+                        <ul>
+
+                        </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="">Evidencias</a>
+                <ul>
+                    <li><a href="./fotos.html">Fotos</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfjbfgR6ZMUcwED60pOKzuUmVMEhVRMPr1QsKbkcwwQlK9Fqg/viewform">Encuesta</a>
+                    </li>
+                    <li><a href="./Infografía.pdf">Infografia</a></li>
+                    <li><a href="">Podcast</a></li>
+                </ul>
+            </li>
+            <li><a href="">S. tecnologica</a>
+                <ul>
+                    <li><a href="https://wordwall.net/play/77557/079/689">Juegos interactivos</a></li>
+                </ul>
+        </div>
+
+        <div class="menu">
+            <button class="menu-button" onclick="showImage('image1')"> Objetivos E.</button>
+            <button class="menu-button" onclick="showImage('image2')">Objetivo G.</button>
+            <button class="menu-button" onclick="showImage('image3')">Pregunta P.</button>
+        </div>
+        <div class="image-container">
+            <center><img id="image1" class="image" src="./especificos.jpg" width="800" height="500"></center>
+            <center><img id="image2" class="image" src="./general.jpeg" width="800" height="500"></center>
+            <center> <img id="image3" class="image" src="./pregunta.jpeg" width="800" height="500"></center>
+            <script>
+                function
+                    showImage(imageId) {
+                    // Ocultar todas las  imágenes 
+                    const images = document.querySelectorAll('.image');
+                    images.forEach(image =>
+                        image.classList.remove('active'));
+                    // Mostrar la imagen seleccionada 
+                    const selectedImage = document.getElementById(imageId);
+                    selectedImage.classList.add('active');
+                }
+            </script>
+          
+         
+            </head>
+
+        
+            </body>
+
+</html>
